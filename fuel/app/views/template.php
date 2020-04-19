@@ -19,7 +19,7 @@
 			}
 
 	</style>
-	<?php  // echo Security::js_fetch_token() ?>
+	<?php  echo Security::js_fetch_token() ?>
 </head>
 <body ng-app="spaApp">
 	<div class="container">
@@ -58,7 +58,7 @@
 		</footer>
 	</div>
 	<script>
-		//window.token = fuel_csrf_token(); 
+		window.token = fuel_csrf_token(); 
 		//console.log(window.token);
 	</script>
 	 

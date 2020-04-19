@@ -22,4 +22,4 @@
         .constant('appSettings', { serverPath: "http://localhost/ngfuel-spa/public/api/v1/" });
 
     
-}());
+})();

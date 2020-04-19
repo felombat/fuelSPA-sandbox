@@ -215,12 +215,12 @@ return array(
 		 * ---------------------------------------------------------------------
 		 */
 
-		// 'csrf_autoload'            => false,
-		// 'csrf_autoload_methods'    => array('post', 'put', 'delete'),
-		// 'csrf_bad_request_on_fail' => false,
-		// 'csrf_auto_token'          => false,
-		// 'csrf_token_key'           => 'fuel_csrf_token',
-		// 'csrf_expiration'          => 0,
+		'csrf_autoload'            => false,
+		'csrf_autoload_methods'    => array('post', 'put', 'delete'),
+		'csrf_bad_request_on_fail' => false,
+		'csrf_auto_token'          => false,
+		'csrf_token_key'           => 'fuel_csrf_token',
+		'csrf_expiration'          => 0,
 
 		/**
 		 * ---------------------------------------------------------------------
@@ -449,7 +449,7 @@ return array(
 	 * -------------------------------------------------------------------------
 	 */
 
-	// 'always_load' => array(
+	'always_load' => array(
 		/**
 		 * ---------------------------------------------------------------------
 		 *  These packages are loaded on Fuel's startup.
@@ -467,9 +467,9 @@ return array(
 		 * ---------------------------------------------------------------------
 		 */
 
-		// 'packages' => array(
-		// 	// 'orm',
-		// ),
+		'packages' => array(
+			'orm', 'auth', 'parser'
+		),
 
 		/**
 		 * ---------------------------------------------------------------------
@@ -531,5 +531,5 @@ return array(
 		 */
 
 		// 'language' => array(),
-	// ),
+    ),
 );

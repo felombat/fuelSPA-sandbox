@@ -1,6 +1,6 @@
 (function(){
 
-    angular.module("spaApp", [])
+    angular.module("spaApp")
         .factory("appServices", appServices);
 
     function appServices($http){  //toDo : Add appsettings constant 

@@ -5,4 +5,7 @@
 	<li class=''><?php echo Html::anchor('#!/monkeys','Monkeys');?></li>
 
 </ul>
+
 <!-- <p>{{page.title}}</p> -->
+
+<books-list></books-list>
